@@ -15,7 +15,7 @@ function printNumbers(numbers) {
 // ANSWER: linear
 
 // Q: What is the space complexity?
-// ANSWER: linear
+// ANSWER: constant
 
 
 
@@ -57,7 +57,7 @@ function printA() {
 // ANSWER: constant
 
 // Q: What is the space complexity of this function?
-// ANSWER: linear
+// ANSWER: constant
 
 // 4) -------------------------------------------------------
 function printB(number) {
@@ -69,7 +69,7 @@ function printB(number) {
 // ANSWER: linear
 
 // Q: What is the space complexity of this function?
-// ANSWER: linear
+// ANSWER: constant
 
 
 
@@ -82,10 +82,10 @@ function printC(num, arr) {
   }
 }
 // Q: What is the time complexity of this function?
-// ANSWER: quadratic
+// ANSWER: O(mn)
 
 // Q: What is the space complexity of this function?
-// ANSWER: quadratic
+// ANSWER: constant
 
 
 // 6) -------------------------------------------------------
@@ -100,7 +100,7 @@ function nested(numbers) {
 // ANSWER: quadratic
 
 // Q: What is the space complexity of this function?
-// ANSWER: quadratic
+// ANSWER: constant
 
 
 
@@ -193,7 +193,7 @@ function arrInception(parentArr) {
     }
   }
   // Q: What is the space complexity of this function?
-  // ANSWER: quadratic
+  // ANSWER: constant
   
   
 // 14) You are challenged to find the squared value of each number in an array. This is not the best solution, but it is what you come up with anyway...
